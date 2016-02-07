@@ -1,9 +1,0 @@
-{
-  "firebase": "02-DesignPatterns",
-  "public": "public",
-  "ignore": [
-    "firebase.json",
-    "**/.*",
-    "**/node_modules/**"
-  ]
-}
