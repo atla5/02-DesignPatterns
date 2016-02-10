@@ -1,6 +1,7 @@
 <html>
 <head>
   <title> Facade </title>
+  <script type="text/javascript" src="./facade.js"></script>
 </head>
 
 <body>
