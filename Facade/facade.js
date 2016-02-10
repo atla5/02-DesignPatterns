@@ -1,10 +1,15 @@
 
 //The Facade Pattern
 
-window.onLoad = function(){
-  var pizzaMaker = new PizzaMaker();
-  pizzaMaker.makeAPizza();
-};
+window.onLoad = main();
+
+  function main(){
+    console.log("main called.");
+    var pizzaMaker = new PizzaMaker();
+    pizzaMaker.makeAPizza();
+  }
+
+  // - pizza classes - //
   
   function Vegan (){
     this.addSpinach = function(){ console.log("-add spinach"); };
@@ -14,8 +19,10 @@ window.onLoad = function(){
   function SauceBucket(){
     this.addSauce = function(){ console.log("-add sauce");  };
   }
-  
+
   function MeatLover(){
+    this.addChicken = function(){ console.log("-add Chicken"); };
+    this.addBacon = function(){ console.log("-add Bacon"); };
     this.addPepperoni = function(){ console.log("-add pepperoni"); };
   }
   
@@ -27,6 +34,8 @@ window.onLoad = function(){
   function CheeseGuy(){
     this.addCheese = function(){ console.log("-add cheese"); };
   }
+
+  //main pizza class
 
   function PizzaMaker(){
     

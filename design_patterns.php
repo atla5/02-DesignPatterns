@@ -16,7 +16,7 @@
   <ul>
     <li><a href="./Mediator/mediator.html">Mediator</a></li>
     <li><a href="./Adapter/adapter.html">Adapter</a></li>
-    <li><a href="./Facade/facade.html">Facade</a></li>
+    <li><a href="./Facade/facade.php">Facade</a></li>
     <li><a href="./InversionOfControl/inversionOfControl.html">Inversion of Control</a></li>
   </ul>
     
