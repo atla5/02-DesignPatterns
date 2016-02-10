@@ -4,7 +4,7 @@
 </head>
 
 <body>
-The Facade Pattern
+The Facade Pattern (see console)
 </body>
 
 </html>
