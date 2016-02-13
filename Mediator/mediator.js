@@ -8,9 +8,9 @@ function Phone(num){
     this.tower = null;
     
     // - member functions - //
-    this.callPhone = function (numToCall){
-      this.tower.callPhone(numToCall, this.number);
-    }
+    this.callPhone = function (phoneToCall){
+      this.tower.callPhone(phoneToCall, this);
+    };
     
 }
 
@@ -29,7 +29,7 @@ function Tower(){
       console.log("--cannot call oneself--");
     }
     
-    console.log("Call placed from: " + from + " to: " + to + "." );
+    console.log("Call placed from: " + from.number + " to: " + to.number + "." );
   };
 }
  
