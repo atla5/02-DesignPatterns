@@ -16,7 +16,7 @@ function Phone(num){
 
 function Tower(){
   
-  this.phones = {};
+  this.phones = [];
   
   this.registerPhone = function(new_phone){
     new_phone.tower = this;
