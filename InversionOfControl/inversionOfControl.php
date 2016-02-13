@@ -8,11 +8,9 @@
     </body>
     
     <?php 
-      
-      
-    
     
       class traditionalControl{
+        
       }
       
       function inversionOfControl(){
