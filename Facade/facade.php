@@ -32,8 +32,6 @@
     itself. 
   </p>
   
-  </br>
-  
   <p>
     <b>Check the inspector to view a code snippet.</b> Though the pattern demonstrated would also 
     qualify as a Template, here it is just meant to demonstrate the ability for the Facade
