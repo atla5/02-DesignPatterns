@@ -1,7 +1,7 @@
 <html>
 
   <title>02-DesignPatterns</title>
-  <?php include_once "../../../../includes/header.php" ?>
+  <?php include_once "../../../includes/header.php" ?>
     
   <h1> SWEN 344 - Web Engineering </h1>
 
@@ -19,11 +19,11 @@
   </p>
   
 <ul>
-    <li><a href="./Mediator/mediator.html">Mediator</a></li>
-    <li><a href="./Adapter/adapter.html">Adapter</a></li>
-    <li><a href="./Facade/facade.php">Facade</a></li>
-    <li><a href="./InversionOfControl/inversionOfControl.php">Inversion of Control</a></li>
+    <li><a href="./mediator/">Mediator</a></li>
+    <li><a href="./adapter/">Adapter</a></li>
+    <li><a href="./facade/">Facade</a></li>
+    <li><a href="./inversionOfControl/">Inversion of Control</a></li>
   </ul>
     
-  <?php include_once "../../../../includes/footer.php" ?>
+  <?php include_once "../../../includes/footer.php" ?>
 </html>
